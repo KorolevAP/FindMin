@@ -34,7 +34,7 @@ std::vector<double> Data::getArrayX()
     return xArray;
 }
 
-void Polinome::findPoints()
+void Polinome:: findPoints()
 {
     if (coefficients.empty())
     {
@@ -83,6 +83,11 @@ void Polinome::generate()
         if (i + 1 % 5 == 0)
             std::cout << "\n";
     }
+}
+
+void Polinome::addNewPoint(double point)
+{
+    
 }
 
 void Sin::generate()

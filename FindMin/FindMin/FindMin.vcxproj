@@ -139,9 +139,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="GenerateData.hpp" />
+    <ClInclude Include="Methods.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GenerateData.cpp" />
+    <ClCompile Include="Methods.cpp" />
     <ClCompile Include="mian.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

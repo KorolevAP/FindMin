@@ -24,6 +24,7 @@ public:
     void setRightPoint(double rightPoint);
     void setNumOfPoints(size_t numOfPoints);
     virtual void generate() = 0;
+    virtual void addNewPoint(double point) = 0;
     std::vector<double> getArrayY();
     std::vector<double> getArrayX();
 };
@@ -38,6 +39,7 @@ public:
     Polinome() = default;
     void setPolinomeLevel(size_t level);
     void generate();
+    void addNewPoint(double point);
 };
 
 class Sin : virtual public Data
